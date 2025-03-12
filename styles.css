@@ -188,7 +188,6 @@ button:active {
     box-shadow: 0 10px 20px var(--shadow-light);
 }
 
-/* Modo oscuro */
 body.dark-theme {
     background-color: var(--dark-background-color);
     color: var(--dark-text-color);
