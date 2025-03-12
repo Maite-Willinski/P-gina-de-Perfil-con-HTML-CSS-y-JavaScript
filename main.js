@@ -9,7 +9,7 @@ if (savedTheme) {
 }
 
 themeToggle.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevenir el envío del formulario si el botón está dentro de uno
+    event.preventDefault();
     body.classList.toggle('dark-theme');
     const currentTheme = body.classList.contains('dark-theme') ? 'dark-theme' : '';
     localStorage.setItem('theme', currentTheme);
